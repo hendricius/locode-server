@@ -4,7 +4,7 @@ Bundler.require
 
 get '/ports/:query' do
   content_type :json
-  if params[:query] && params[:query].length >= 3
+  if params[:query] && params[:query].length >= 2
     status 200
     response = Locode.find_by_name(params[:query]).take(10).map{|elem| elem.to_hash}.to_json
   else
