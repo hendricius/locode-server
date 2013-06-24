@@ -1,10 +1,8 @@
 require 'rubygems'
-require 'bundler/setup'
-require 'sinatra'
-require 'locode'
-require 'json'
+require 'bundler'
+Bundler.require
 
-get '/port/:query' do
+get '/ports/:query' do
   content_type :json
   if params[:query] && params[:query].length >= 3
     status 200

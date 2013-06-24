@@ -1,2 +1,2 @@
-require './server'
+require './locode-api'
 run Sinatra::Application
