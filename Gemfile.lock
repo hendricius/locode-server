@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hendricius/locode.git
-  revision: 25767429ab0ff81953fbbbc833f659aa5470ad14
+  revision: e09565ede4674fc1301f6f98b0fb4a8a61628f25
   specs:
     locode (0.0.1)
 
