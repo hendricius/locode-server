@@ -4,6 +4,7 @@ gem 'sinatra'
 gem 'locode', git: "https://github.com/hendricius/locode.git"
 gem 'json'
 gem 'pry'
+gem 'sinatra-cross_origin'
 
 gem 'sinatra'
 

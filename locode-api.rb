@@ -2,6 +2,10 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
+configure do
+  enable :cross_origin
+end
+
 get '/ports/:query' do
   content_type :json
   if params[:query] && params[:query].length >= 2
