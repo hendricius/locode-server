@@ -2,6 +2,8 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
+set :bind, '0.0.0.0'
+
 configure do
   enable :cross_origin
 end
